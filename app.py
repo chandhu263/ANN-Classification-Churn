@@ -4,7 +4,7 @@ import tensorflow as tf
 from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder
 import pandas as pd
 import pickle
-
+## In the process of learning the streamlit from the rags
 # Loading the trained model
 model= tf.keras.models.load_model('model.h5')
 
